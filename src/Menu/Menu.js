@@ -12,7 +12,7 @@ function Menu() {
       arial-label="Main menu"
       itemScope
       itemType="https://schema.org/SiteNavigationElement"
-      >
+    >
         <ul>
             <li><Link itemProp="url" to="/">Home</Link></li>
             <li><Link itemProp="url" to="/about">About</Link></li>

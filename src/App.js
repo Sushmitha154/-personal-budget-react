@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter as Router,
   Route,
@@ -21,7 +21,7 @@ function App() {
       <Hero/>
       <div className="mainContainer">
         <Routes>
-        <Route path="/" element={<HomePage />} />
+         <Route path="/" element={<HomePage />} />
          <Route path="/about" element={<AboutPage />} />
          <Route path="/Login" element={<LoginPage />} />        
         </Routes>
